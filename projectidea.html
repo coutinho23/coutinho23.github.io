@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1>
+Project - Connect with IaaS Storage Endpoints using API Services using Python
+</h1>
+
+
+<p>
+
+<h3>Overview  </h3>
+Supporting IaaS and Cloud solutions is not only my passion but also my ideal job what I do to earn my bread and butter. 
+There are so many systems out there which do not have decent capability to perform simple tasks such as monitoring for 
+performance and capacity. In this fast changing world where IT budgets are getting smaller and smaller and IT is even more
+looked at as a Liability to business, we need to be on top of our game to ensure money is well spend on Infrastructure. 
+In the area of storage where the costs can be really high it is critical to ensure we have excellent toolsets to keep on
+top of capacity and performance. These reports should be easy to understand and ready to showcase to management on a click
+of a button. My Project is to develop a reporting tool which represents data from a database which talks talks to storage endpoints.  
+
+</p>
+
+<p>
+<h3>Motivation  </h3>
+
+I have always been interested in IaaS and Cloud solutions and have spent alot of my time supporting these environments. My number one grieviance
+is always capacity and performance monitoring be it in cloud or ompremise solutions. There is no single vendor in the market today who will offer you a 
+tool which gives you this capability from a single pane of view. There reporting is never accurate and doesnt always paint a good picture of ground 
+reality. So, for my project i would like to develop an application which talks to these endpoints in a secure manner where password is hashed using secure encryption.
+Once I have access to the array retrieve data and store this in a database file. Database will be normalised per array. Once this is done across at least arrays 
+the final bit is to represent his using a graphing tool from data collected in database. 
+
+ 
+ 
+</p>
+
+<p>
+<h3>Description </h3>
+
+To monitor and report on storage endpoints, I would look at using Python Language to code. I am not 100% what integrated environment I will use
+but it will probably be Anaconda,pyCharm or visual code . Secure connection will be made to storage targets and all login credentials will be 
+securely encrypted. Once connected all data will be retrieved and store in a mySQL or SQL Std database. Type of database is uncertain there might
+be some open source options but will need some investigation. Also database should have some decent capability to index itself so that data reporting 
+is quick. For storage endpoints I will look at deploying Virtual storage appliances in my home lab. At this stage I will use a NetApp Ontap Cluster mode 
+solution and probably a Pure Array Appliance. Further investigation needs to be done around these storage appliances. Data collected from these storage
+appliances will be stored in a custome normalised database specific to that array. For example for block storage (Fibre Channel) there will be no efficency
+in terms of data reduction or deduplication. However in terms of iSCSi, NFS or CIFS volumes we might see some savings in terms of reduction . This will be
+stored in the database so that we can get a true picture of costs per terabyte. powershell scripts will be used on top of Python if needed to perform any 
+tasks which might be required which is not best suited to perform with Python. This graphical representation of storage capacity and performance will 
+give higher management a true reflect of where their money is being spent. 
+They can use this as a chargeback to business mechanism as we will now have a insight on application wise usage of storage. 
+
+
+</p>
+
+<p>
+<h3>Tools and Technologies </h3>
+For this project I will be using Python Language. For Scripting environment I will possible use pyCharm however Visual Code is also another option.
+Storage Endpoints will be a challenge as I will need Virtual Endpoints from storage vendors. We have Pure, NetApp and EMC. This will need some
+investigation around Virtual appliance I am confident NetApp have a virtual appliance however would prefer to have another vendor in the mix. 
+For database I will be using mySQL. Some investigative work will be needed to ensure database indexing is updated daily so reports run efficently. 
+Finally for graphing tool I have no clue to be honest worst case scenario might have to use javascript to represent this database. Python might 
+have its own reporting modules but I am not aware of them. Git repository will be use for source, version control and daily backup of code / database
+will be done to my External NAS using scheduled robocopy.
+
+
+</p>
+
+<p>
+
+
+<h3>Skill Required </h3>
+To deliver this project I will need to learn Python language. In terms of scripting environment I will use pyCharm or Visual Code. mySQl Database will be used to store information and retrieve it.
+Some investigate work will be required to represent this database. Options would be to use one of pythons graphing tools, ELK or jScript to read and graph out data to browser. 
+Chrome will be used for testing while all code debugging will be done using pycharm or visual code. NetApp ontap cluster mode will be deploy to my pc which will act as storage endpoint. I will also 
+investigate if we can deploy a pure array virtual appliance as target. Github will be used for code/version control
+
+</p>
+
+
+<p>
+
+<h3>Outcome </h3>
+If this project is successful this will save my workplace millions of dollars. Currently storage as always been that grey 
+area where capacity and performance is never truly reflected. If this project is completed we will have a birds eye view
+on every application which makes charback very easy for management. The original problem is no vendor gives you a single 
+pane of glass to see such reports. This project will help deliver that. 
+ 
+ 
+
+</p>
+
+</body>
+</html>
